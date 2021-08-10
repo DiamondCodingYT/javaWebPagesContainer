@@ -16,7 +16,7 @@ sites and a database system.
         example.com:4443/foo/... - A page that either uses the universal login system or one without an login
     </li>
     <li>
-        example.com:4443/bar/login/... - The Login page for the bar example, wich has own users and doesn't use the
+        example.com:4443/bar/login/... - The Login page for the bar example, which has own users and doesn't use the
         universal login system
     </li>
     <li>
@@ -32,7 +32,7 @@ Finished Tasks are marked with this ✔️ emoji. Once this program is actually 
 `1.` instead of `0.`
 <ul>
 <li>✔️ Write basic webserver, with ssl support.</li>
-<li>Start with /manage/ page</li>
+<li>Start with /manage/ page</li> 
 <li>Build external jar loading system</li>
 <li>Create sub page system</li>
 <li>Config system</li>
