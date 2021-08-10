@@ -7,20 +7,20 @@ sites and a database system.
 ### The structure would look somehow like this:
 <ul>
     <li>
-        example.com:449/login - Universal Login Page for all sites
+        example.com:4443/login - Universal Login Page for all sites
     </li>
     <li>
-        example.com:449/manage/... - The Page, where all the sub-pages and users are managed
+        example.com:4443/manage/... - The Page, where all the sub-pages and users are managed
     </li>
     <li>
-        example.com:449/foo/... - A page that either uses the universal login system or one without an login
+        example.com:4443/foo/... - A page that either uses the universal login system or one without an login
     </li>
     <li>
-        example.com:449/bar/login/... - The Login page for the bar example, wich has own users and doesn't use the
+        example.com:4443/bar/login/... - The Login page for the bar example, wich has own users and doesn't use the
         universal login system
     </li>
     <li>
-        example.com:449/bar/page/... - The page itself for the bar example
+        example.com:4443/bar/page/... - The page itself for the bar example
     </li>
     <li>
         ...
@@ -31,7 +31,7 @@ sites and a database system.
 Finished Tasks are marked with this ✔️ emoji. Once this program is actually usable the version number will start with
 `1.` instead of `0.`
 <ul>
-<li>Write basic webserver, with ssl support.</li>
+<li>✔️ Write basic webserver, with ssl support.</li>
 <li>Start with /manage/ page</li>
 <li>Build external jar loading system</li>
 <li>Create sub page system</li>
